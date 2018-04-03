@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ConnectingApp</string>
+    <string name="loading">loading</string>
+    <string name="menu_download">download</string>
+    <string name="menu_all">All</string>
+    <string name="title_activity_openapp">OpenappActivity</string>
+</resources>

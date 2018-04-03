@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.softicastle30.connectingapp.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="13dp"
+        android:autoText="false"
+        android:text="앱을열자"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        app:srcCompat="@drawable/chaaty_icon" />
+
+    <Button
+        android:id="@+id/applistBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignTop="@+id/textView2"
+        android:onClick="onApplistClicked"
+        android:text="App List" />
+
+</RelativeLayout>
